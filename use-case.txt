@@ -1,0 +1,8 @@
+@startuml
+
+:игрок: as Player
+(¬ход) as Login
+Player-->(Login)
+
+
+@enduml
