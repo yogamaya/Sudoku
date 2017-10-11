@@ -3,7 +3,9 @@ left to right direction
 skinparam packageStyle rectangle
 actor Игрок
 rectangle Система {
-Игрок --> (Вход в систему)
+Игрок --> (Вход в приложение)
+(Вход в приложение) .> (Регистрация) : include
+Игрок --> (Просмотр рейтинга)
 }
 
 @enduml
