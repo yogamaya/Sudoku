@@ -1,8 +1,9 @@
 @startuml
-
-:игрок: as Player
-(Вход) as Login
-Player-->(Login)
-
+left to right direction
+skinparam packageStyle rectangle
+actor Игрок
+rectangle Система {
+Игрок --> (Вход в систему)
+}
 
 @enduml
